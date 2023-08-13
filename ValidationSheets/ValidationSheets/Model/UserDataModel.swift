@@ -32,8 +32,8 @@ enum UserValidationCrips: String, CaseIterable {
     case atleastOneLowerCase = "Use at least 1 lowercase character"
     case atleastOneNumber = "Use at least 1 numeric character"
     case length = "Between 8 & 20 characters"
-    case repeatRestriction = "Same number cannot be repeated thrice"
-    case passwordMatchusername = "Password should not match with username"
+    case repeatRestriction = "Same number"
+    //case passwordMatchusername = "Password should not match with username"
     case validated
     
     static var cripList: [String] {
