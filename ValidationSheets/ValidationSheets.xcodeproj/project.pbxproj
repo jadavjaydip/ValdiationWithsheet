@@ -16,6 +16,15 @@
 		095C44032A88971400D6A0F5 /* ValidationSheetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44022A88971400D6A0F5 /* ValidationSheetsTests.swift */; };
 		095C440D2A88971400D6A0F5 /* ValidationSheetsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C440C2A88971400D6A0F5 /* ValidationSheetsUITests.swift */; };
 		095C440F2A88971400D6A0F5 /* ValidationSheetsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C440E2A88971400D6A0F5 /* ValidationSheetsUITestsLaunchTests.swift */; };
+		095C44222A8898EE00D6A0F5 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44212A8898EE00D6A0F5 /* UserDataModel.swift */; };
+		095C44242A889A9B00D6A0F5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44232A889A9B00D6A0F5 /* ViewModel.swift */; };
+		095C442C2A889B7000D6A0F5 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44252A889B7000D6A0F5 /* Stack.swift */; };
+		095C442D2A889B7000D6A0F5 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44262A889B7000D6A0F5 /* TinyConstraints.swift */; };
+		095C442E2A889B7000D6A0F5 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44272A889B7000D6A0F5 /* Constrainable.swift */; };
+		095C442F2A889B7000D6A0F5 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44282A889B7000D6A0F5 /* Constraints.swift */; };
+		095C44302A889B7000D6A0F5 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C44292A889B7000D6A0F5 /* TinyEdgeInsets.swift */; };
+		095C44312A889B7000D6A0F5 /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C442A2A889B7000D6A0F5 /* Abstraction.swift */; };
+		095C44322A889B7000D6A0F5 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C442B2A889B7000D6A0F5 /* TinyConstraints+superview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		095C44082A88971400D6A0F5 /* ValidationSheetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidationSheetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C440C2A88971400D6A0F5 /* ValidationSheetsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSheetsUITests.swift; sourceTree = "<group>"; };
 		095C440E2A88971400D6A0F5 /* ValidationSheetsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationSheetsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		095C44212A8898EE00D6A0F5 /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		095C44232A889A9B00D6A0F5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		095C44252A889B7000D6A0F5 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		095C44262A889B7000D6A0F5 /* TinyConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyConstraints.swift; sourceTree = "<group>"; };
+		095C44272A889B7000D6A0F5 /* Constrainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrainable.swift; sourceTree = "<group>"; };
+		095C44282A889B7000D6A0F5 /* Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraints.swift; sourceTree = "<group>"; };
+		095C44292A889B7000D6A0F5 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		095C442A2A889B7000D6A0F5 /* Abstraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abstraction.swift; sourceTree = "<group>"; };
+		095C442B2A889B7000D6A0F5 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TinyConstraints+superview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +117,13 @@
 		095C43EA2A88971300D6A0F5 /* ValidationSheets */ = {
 			isa = PBXGroup;
 			children = (
-				095C43EB2A88971300D6A0F5 /* AppDelegate.swift */,
-				095C43ED2A88971300D6A0F5 /* SceneDelegate.swift */,
-				095C43EF2A88971300D6A0F5 /* ViewController.swift */,
-				095C43F12A88971300D6A0F5 /* Main.storyboard */,
-				095C43F42A88971400D6A0F5 /* Assets.xcassets */,
-				095C43F62A88971400D6A0F5 /* LaunchScreen.storyboard */,
+				095C44332A889B7600D6A0F5 /* Constraint */,
+				095C44202A8898DC00D6A0F5 /* ViewModel */,
+				095C441F2A8898D200D6A0F5 /* Model */,
+				095C441E2A8898B600D6A0F5 /* Screen */,
+				095C441D2A8898AD00D6A0F5 /* Controller */,
+				095C441C2A88989C00D6A0F5 /* Application */,
+				095C441B2A88988C00D6A0F5 /* Resourse */,
 				095C43F92A88971400D6A0F5 /* Info.plist */,
 			);
 			path = ValidationSheets;
@@ -125,6 +144,70 @@
 				095C440E2A88971400D6A0F5 /* ValidationSheetsUITestsLaunchTests.swift */,
 			);
 			path = ValidationSheetsUITests;
+			sourceTree = "<group>";
+		};
+		095C441B2A88988C00D6A0F5 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				095C43F42A88971400D6A0F5 /* Assets.xcassets */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		095C441C2A88989C00D6A0F5 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				095C43EB2A88971300D6A0F5 /* AppDelegate.swift */,
+				095C43ED2A88971300D6A0F5 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		095C441D2A8898AD00D6A0F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				095C43EF2A88971300D6A0F5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		095C441E2A8898B600D6A0F5 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				095C43F12A88971300D6A0F5 /* Main.storyboard */,
+				095C43F62A88971400D6A0F5 /* LaunchScreen.storyboard */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		095C441F2A8898D200D6A0F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				095C44212A8898EE00D6A0F5 /* UserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		095C44202A8898DC00D6A0F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				095C44232A889A9B00D6A0F5 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		095C44332A889B7600D6A0F5 /* Constraint */ = {
+			isa = PBXGroup;
+			children = (
+				095C442A2A889B7000D6A0F5 /* Abstraction.swift */,
+				095C44272A889B7000D6A0F5 /* Constrainable.swift */,
+				095C44282A889B7000D6A0F5 /* Constraints.swift */,
+				095C44252A889B7000D6A0F5 /* Stack.swift */,
+				095C44262A889B7000D6A0F5 /* TinyConstraints.swift */,
+				095C442B2A889B7000D6A0F5 /* TinyConstraints+superview.swift */,
+				095C44292A889B7000D6A0F5 /* TinyEdgeInsets.swift */,
+			);
+			path = Constraint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +341,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095C44242A889A9B00D6A0F5 /* ViewModel.swift in Sources */,
+				095C442D2A889B7000D6A0F5 /* TinyConstraints.swift in Sources */,
+				095C44312A889B7000D6A0F5 /* Abstraction.swift in Sources */,
+				095C44222A8898EE00D6A0F5 /* UserDataModel.swift in Sources */,
+				095C442E2A889B7000D6A0F5 /* Constrainable.swift in Sources */,
+				095C44302A889B7000D6A0F5 /* TinyEdgeInsets.swift in Sources */,
+				095C442F2A889B7000D6A0F5 /* Constraints.swift in Sources */,
+				095C44322A889B7000D6A0F5 /* TinyConstraints+superview.swift in Sources */,
 				095C43F02A88971300D6A0F5 /* ViewController.swift in Sources */,
 				095C43EC2A88971300D6A0F5 /* AppDelegate.swift in Sources */,
+				095C442C2A889B7000D6A0F5 /* Stack.swift in Sources */,
 				095C43EE2A88971300D6A0F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
